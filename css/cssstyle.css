@@ -142,19 +142,19 @@ display: inline;
 
 }
 
-work
+.work
 {
 display: block;
 
 padding-left: 80px;
 }
 
-work div
+.work div
 {
 margin-right:40px;
 }
 
-work img
+.work img
 {
 display: inline-block;
 padding: 10px;
