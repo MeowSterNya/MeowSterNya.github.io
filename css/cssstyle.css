@@ -1,0 +1,226 @@
+html, body 
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+html 
+{
+  font-size: 10px;
+  background-color: white;
+  font-family: hello;
+}
+
+body 
+{
+  width: 100%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+@font-face
+{
+font-family:hello;
+src:url("../fonts/Karma-Regular.ttf");
+}
+@font-face
+{
+font-family:ello;
+src:url("../fonts/Mina-Bold.ttf");
+}   
+
+h1 
+{
+  font-size: 4rem;
+  text-align: center;
+
+    margin-top: 1em;
+  font-family:ello;  
+}
+
+h2
+{
+font-size: 2rem;
+text-align: center;
+font-family:ello;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+}
+
+p
+{
+margin: 10px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
+display: block;
+}
+
+div p
+{
+line-height:5em; 
+background-color: whitesmoke;
+border-style: solid;
+border-radius: 3em;
+display: block;
+margin-left: 400px;
+margin-right: 400px;
+padding-left: 50px;
+padding-right: 50px;
+text-align: center;
+
+
+}
+
+.divalign
+{
+text-align: center;
+}
+
+nav
+{
+    display: flex;
+    background-color: black;
+    padding: 1em;
+     height: 5em;
+    flex: 98%;
+    width: 99%;
+   
+   
+    
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+    
+}
+
+
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex:auto;
+   border-left-style: solid;
+   border-right-style: solid;
+    color: white;
+    
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.highlight a
+{
+color: #08F73D;
+
+}
+
+
+
+.imgfloat
+{
+  float:left;
+display: inline;
+
+
+}
+
+work
+{
+display: block;
+
+padding-left: 80px;
+}
+
+work div
+{
+margin-right:40px;
+}
+
+work img
+{
+display: inline-block;
+padding: 10px;
+width: 30%;
+border-style: solid;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../img/Microsoft%20Flight%20Simulator%2010%20Screenshot%202018.03.10%20-%2020.30.17.691.png");
+
+    /* Set a specific height */
+    height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment:scroll;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.sticky 
+{
+  position: fixed;
+  top: 0;
+  width: 99%;
+}
+
+.weltext
+{
+text-align: center;
+font-size: 80px; 
+text-decoration: none;
+color: #468713;
+}
+
+.button
+{
+border-radius: 3em;
+border-style: solid;
+background-color: #468713;
+padding: 1em;
+border: none;
+text-decoration: none;
+color: black;
+font-size: 2em;
+}
+
+div input
+{
+text-align: center;
+}
+
+
+.buttonalign
+{
+text-align: center;
+margin-top: 3em;
+}
+
+button:hover
+{
+background-color: #0D89C3;
+}
+
+nav ul li a:hover
+{
+color: #0D89C3;  
+}
+
