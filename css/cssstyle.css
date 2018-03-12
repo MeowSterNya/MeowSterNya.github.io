@@ -2,6 +2,7 @@ html, body
 {
   margin: 0;
   padding: 0;
+    
 
 }
 
@@ -15,6 +16,7 @@ html
 body 
 {
   width: 100%;
+
   min-width: 800px;
   margin: 0 auto;
 }
@@ -88,7 +90,7 @@ nav
     padding: 1em;
      height: 5em;
     flex: 98%;
-    width: 99%;
+   max-width: 99%;
    
    
     
@@ -97,9 +99,8 @@ nav
 nav ul {
   padding: 0;
   list-style-type: none;
-  flex: 2;
-  display: flex;
-    
+  flex: 1;
+  display: flex;    
 }
 
 
@@ -167,7 +168,7 @@ border-style: solid;
 
     /* Set a specific height */
     height: 900px; 
-
+    max-width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment:scroll;
     background-position:top;
